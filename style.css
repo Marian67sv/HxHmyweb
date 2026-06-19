@@ -1,0 +1,47 @@
+.importantes {
+    color:rgb(230, 230, 230);
+    font-size: 67px;
+    text-align: center;
+    background-color:darkgray;
+}
+
+.divisor {
+    width: 150px;
+    height: 150px;
+    overflow:hidden;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    transition: all ease 0.5s;
+    border-radius: 10px;
+    padding:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.divisor:hover {
+    background-color: cornflowerblue;
+    width: 250px;
+    height: fit-content;
+}
+
+.red {
+    background-color: rgb(142, 63, 79);
+}
+.red:hover {
+    background-color: firebrick;
+}
+
+.cajota {
+    display: flex;
+}
+
+
+.title {
+    text-align: center;
+}
+
+.imagenes {
+    display: flex;
+    align-items: center;
+}
